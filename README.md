@@ -103,7 +103,9 @@ $ vim mapred-site.xml
 ```
 
 * Make changes to yarn files
-```$ vim yarn-site.xml
+```
+$ vim yarn-site.xml
+
 <configuration>
 <property>
 <name>yarn.nodemanager.aux-services</name>
@@ -148,7 +150,9 @@ The key's randomart image is:
 
 ## Format NameNode
 > \$ cd /opt/homebrew/Cellar/hadoop/3.3.4/libexec/bin 
+
 > \$ hdfs namenode -format
+
 A warning will tell you that a directory for logs is being created. You will be prompted to re-format filesystem in Storage Directory root. Say Y and press RETURN.
 
 ## Run Hadoop
