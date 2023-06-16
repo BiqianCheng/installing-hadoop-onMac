@@ -3,6 +3,10 @@
 
 - Can we write the mapper and reducer script in python instead of java?
     > the purpose of this project is to help you to understand the fundamentals of the Hadoop MapReduce framework which is required to be written in Java without any other program languages API or toolkit support.
+    >
+    > The reason why I decided to not allow them to use more preferable programming languages is because mrjob simplifies the process of writing and running MapReduce programs, while other students are spending time working on this.
+Developing and deploying MapReduce jobs in Hadoop typically involves writing code in Java, packaging it into a JAR (Java Archive) file, which is also clearly stated in the deliveries on the project description, and submitting it to a Hadoop cluster for execution. This process requires more setup and configuration compared to using MrJob.
+This is not your fault, even you casually said in somewhere else, they should have checked with me no matter how
 
 
 - Total revenue = ?
